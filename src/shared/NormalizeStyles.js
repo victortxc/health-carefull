@@ -10,7 +10,7 @@ export const NormalizeStyles = createGlobalStyle`
   }
 
   body{
-    background: ${Colors.BACKGROUND};
+    background: ${Colors.WHITE};
     font-family: "Poppins";
   }
 

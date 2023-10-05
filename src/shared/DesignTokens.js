@@ -1,9 +1,11 @@
 export const Colors = {
     WHITE: '#FFFFFF',
     BLACK: '#000000',
-    BACKGROUND: '#27ADD7',
+    LIGHT_GREEN: '#F0FAFD',
     GREEN: '#006D77',
-    GREY: '#D9D9D9'
+    DARK_GREY: '#979797',
+    GREY: '#D9D9D9',
+    DARK_BLUE: '#1D2366'
 };
 
 export const FontSizes = {

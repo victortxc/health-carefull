@@ -1,5 +1,5 @@
 <div align="center">
-    <img align="center" alt="esg" title="agro" src="src/assets/logo.png" width="150" />
+    <img align="center" alt="health carefull logo" title="agro" src="src/assets/logo.png" width="150" />
 </div>
 
 <p align="center">
@@ -12,7 +12,7 @@
 <br>
 
 <div align="center">
-  <img alt="EsgPreview" src="src/assets/preview.png">
+  <img alt="Health carefull preview" src="src/assets/preview.png">
 </div>
 
 ---
