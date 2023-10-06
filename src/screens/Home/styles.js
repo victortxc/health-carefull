@@ -1,14 +1,21 @@
 import styled from "styled-components";
-import {FontSizes, Colors, FontWeights, BorderRadius, Spaces} from "../../shared/DesignTokens";
+import {FontSizes, Colors, FontWeights, Spaces} from "../../shared/DesignTokens";
 
 export const BannerContainer = styled.div`
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     background: ${props => props.color};
     flex-wrap: wrap;
     padding: ${Spaces.THREE};
+`;
+
+export const BannerInnerContainer = styled.div`
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 `;
 
 export const BannerText = styled.h1`
@@ -35,16 +42,6 @@ export const MedicalHistoryTitle = styled.h1`
     text-align: center;
     color: ${Colors.DARK_BLUE};
     font-weight: ${FontWeights.REGULAR};
-    margin-bottom: ${Spaces.ONE_HALF};
-`;
-
-export const Button = styled.button`
-    background-color: ${Colors.GREEN};
-    color: ${Colors.WHITE};
-    font-size: ${FontSizes.TWO_HALF};
-    padding: ${Spaces.ONE_HALF};
-    border-radius: ${BorderRadius.ONE};
-    border: none;
     margin-bottom: ${Spaces.ONE_HALF};
 `;
 

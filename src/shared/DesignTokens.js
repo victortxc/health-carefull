@@ -5,7 +5,8 @@ export const Colors = {
     GREEN: '#006D77',
     DARK_GREY: '#979797',
     GREY: '#D9D9D9',
-    DARK_BLUE: '#1D2366'
+    DARK_BLUE: '#1D2366',
+    RED: '#dc3545'
 };
 
 export const FontSizes = {
